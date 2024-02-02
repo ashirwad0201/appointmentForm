@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <div style="margin-left: 25%;margin-right: 25%;border-style: groove;border-width: thin;border-color: #e64917;border-radius: 4px;">
+    <form>
+        <h1 style="text-align: center;color: #e64917;">Book a Call</h1>
+        <p style="text-align: center; font-size: x-small;">Book a call slot and our representative will call you within 1hr of selected time.</p>
+        <hr>
+        <label style="width: 96%; margin-left: 1%; margin-right: 1%; font-size: small;">Name:</label>
+        <br>
+        <input id= 'idx1' type="text" style="width: 96%; margin-left: 1%; margin-right: 1%; margin-bottom: 1%;" value='Samriddhi'>
+        <br>
+        <label style="width: 96%; margin-left: 1%; margin-right: 1%; font-size: small;">Email:</label>
+        <br>
+        <input id= 'idx2' type="text" style="width: 96%; margin-left: 1%; margin-right: 1%; margin-bottom: 1%;"  value='samriddhi@gmail.com'>
+        <br>
+        <label style="width: 96%; margin-left: 1%; margin-right: 1%; font-size: small;">Phone:</label>
+        <br>
+        <input id= 'idx3' type="text" style="width: 96%; margin-left: 1%; margin-right: 1%; margin-bottom: 1%;"  value='9876543210'>
+        <br>
+        <input id="btn-btn" type="button" value="GET A CALL" style="background-color: #e64917;color: white;width: 98%;margin-left: 1%;margin-right: 1%;margin-bottom: 1%;margin-top: 2%;border-radius: 4px;" 
+        onclick="onSignUp()">
+    </form>
+    <ul id="list-items">
+    </ul>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+<script type = "text/javascript" src="index.js"></script>
+</body>
+</html>
